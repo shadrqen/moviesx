@@ -22,4 +22,13 @@ export default Vue.extend({
 </script>
 
 <style lang="scss" scoped>
+@import '../styles/variables';
+
+.app_bar {
+  background-image: linear-gradient(to right, #283e51, #13547a);
+}
+
+.v-toolbar {
+  background-color: $headerColor;
+}
 </style>
