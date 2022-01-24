@@ -178,8 +178,5 @@ export default Vue.extend({
   background-color: white;
   text-transform: none;
 }
-.listing-home-container {
-  overflow-y: hidden;
-}
 
 </style>

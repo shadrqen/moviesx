@@ -28,6 +28,11 @@ Installation
 
 #### Dev Setup
 ## Project setup
+> You need to first ensure that @vue/cli is installed. If it is not installed, run the following command
+```
+npm install -g @vue/cli
+```
+Then install dependencies
 ```
 npm install
 ```
