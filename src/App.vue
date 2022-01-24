@@ -29,3 +29,9 @@ export default Vue.extend({
   }
 })
 </script>
+
+<style lang="scss">
+.v-application--wrap {
+  min-height: max-content !important;
+}
+</style>
