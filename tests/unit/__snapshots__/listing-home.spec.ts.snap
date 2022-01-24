@@ -46,6 +46,7 @@ exports[`ListingHome should match snapshot 1`] = `
        
       <v-btn-stub
         activeclass=""
+        class="mt-4"
         id="favourites-btn"
         outlined="true"
         tag="button"
