@@ -11,6 +11,7 @@
     "lintfix": "npm run lint -- --fix"
   },
   "dependencies": {
+    "@vue/composition-api": "^1.4.4",
     "axios": "^0.25.0",
     "core-js": "^3.6.5",
     "flush-promises": "^1.0.2",
