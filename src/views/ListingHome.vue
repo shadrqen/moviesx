@@ -22,6 +22,7 @@
         <v-spacer />
         <v-btn
           id="favourites-btn"
+          class="mt-4"
           outlined
           @click="chooseMoviesToShow(!allMoviesShowing)"
         >
