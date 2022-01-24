@@ -3,6 +3,17 @@
     <v-card elevation="1">
       <v-card-title>
         All Movies
+        <v-spacer/>
+        <v-text-field
+          id="search-text-field"
+          v-model="search"
+          append-icon="mdi-magnify"
+          hide-details
+          label="Search"
+          single-line
+          @keypress="processSearch"
+          @keyup.delete="processSearch"
+        />
       </v-card-title>
       <v-data-table
         id="main-table"
