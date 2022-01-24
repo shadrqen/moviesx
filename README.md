@@ -6,7 +6,7 @@
   <br>
 </h1>
 
-<h4 align="center">Get </h4>
+<h4 align="center">List and search from a wide array of movies and mark your favourites</h4>
 
 <p align="center">
 <a href="https://github.com/shadrqen/moviesx/actions" target="_blank" rel="noopener noreferrer"><img src="https://github.com/shadrqen/moviesx/actions/workflows/ci.yml/badge.svg?branch=master" ></a>
