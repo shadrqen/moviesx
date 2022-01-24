@@ -1,5 +1,5 @@
-import { shallowMount } from '@vue/test-utils'
-import ListingHomePage from '@/views/ListingHome.vue'
+// import { shallowMount } from '@vue/test-utils'
+// import ListingHomePage from '@/views/ListingHome.vue'
 
 describe('ListingHome', () => {
   it('test', () => {
