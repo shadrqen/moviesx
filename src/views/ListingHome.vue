@@ -2,8 +2,13 @@
   <v-container class="listing-home-container">
     <v-card elevation="1">
       <v-card-title>
-        All Movies
-        <v-spacer/>
+        <div v-if="allMoviesShowing">
+          All Movies
+        </div>
+        <div v-else>
+          My Favourites
+        </div>
+        <v-spacer />
         <v-text-field
           id="search-text-field"
           v-model="search"
@@ -14,6 +19,26 @@
           @keypress="processSearch"
           @keyup.delete="processSearch"
         />
+        <v-spacer />
+        <v-btn
+          id="favourites-btn"
+          outlined
+          @click="chooseMoviesToShow(!allMoviesShowing)"
+        >
+          <div v-if="!allMoviesShowing">
+            Show All
+          </div>
+          <v-badge
+            v-else
+            :content="favouriteMovieCount"
+            :value="favouriteMovieCount"
+            color="red"
+            overlap
+          >
+            <v-icon>mdi-heart</v-icon>
+            Favourites
+          </v-badge>
+        </v-btn>
       </v-card-title>
       <v-data-table
         id="main-table"
