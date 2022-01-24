@@ -1,13 +1,3 @@
-// import { shallowMount } from '@vue/test-utils'
-// import ListingHomePage from '@/views/ListingHome.vue'
-
-describe('ListingHome', () => {
-  it('test', () => {
-    expect(1).toBe(1)
-  })
-})
-
-/*
 import { createLocalVue, shallowMount } from '@vue/test-utils'
 import ListingHomePage from '@/views/ListingHome.vue'
 import Vuetify from 'vuetify'
@@ -53,4 +43,3 @@ describe('ListingHome', () => {
     expect(wrapper.find('#search-text-field').element.value).toBe('Aquaman')
   })
 })
-*/

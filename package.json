@@ -8,7 +8,8 @@
     "test:unit": "vue-cli-service test:unit",
     "test:e2e": "vue-cli-service test:e2e",
     "lint": "eslint --ext .js,.ts,.vue .",
-    "lintfix": "npm run lint -- --fix"
+    "lintfix": "npm run lint -- --fix",
+    "cypress:open": "cypress open"
   },
   "dependencies": {
     "@vue/composition-api": "^1.4.4",
